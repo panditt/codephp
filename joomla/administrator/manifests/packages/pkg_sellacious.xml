@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.4" method="upgrade">
+	<name>Sellacious Package</name>
+	<author>Bhartiy Web Technologies</author>
+	<creationDate>December 31, 2016</creationDate>
+	<packagename>sellacious</packagename>
+	<version>1.4.4</version>
+	<url>http://www.sellacious.com/</url>
+	<packager>Bhartiy Web Technologies</packager>
+	<packagerurl>http://www.sellacious.com</packagerurl>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[
+		This will install entire sellacious e-commerce software on your Joomla website.
+	]]></description>
+	<scriptfile>installer.php</scriptfile>
+	<files folder="extensions">
+		<file type="component" id="com_sellacious">com_sellacious.zip</file>
+		<file type="module" id="mod_usercurrency" client="site">mod_usercurrency.zip</file>
+		<file type="module" id="mod_sellacious_cart" client="site">mod_sellacious_cart.zip</file>
+	</files>
+	<updateservers>
+		<server type="extension" name="Sellacious Package Updates">http://sellacious.com/release/pkg_sellacious_v1.4.xml</server>
+	</updateservers>
+</extension>

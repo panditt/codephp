@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0">
+
+<name>COM_GOODSPACK</name>
+<author>UkrSolution</author>
+<creationDate>2016-01-05</creationDate>
+<copyright>(C) 2015 - UkrSolution</copyright>
+<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+<authorEmail>ukrsolution@gmail.com</authorEmail>
+<authorUrl>https://www.ukrsolution.com</authorUrl>
+
+<version>1.0.1</version>
+<releaseDate>2016-01-05</releaseDate>
+<releaseType>Major update</releaseType>
+
+<description>COM_GOODSPACK_DESCRIPTION</description>
+
+
+<files folder="site">
+	<filename>controller.php</filename>
+	<filename>goodspack.php</filename>
+	<filename>index.html</filename>
+	<folder>languages</folder>
+	<folder>models</folder>
+	<folder>views</folder>
+</files>
+
+
+<languages folder="site">
+	<language tag="en-GB">languages/en-GB.com_goodspack.ini</language>
+</languages>
+
+<administration>
+
+<languages folder="admin">
+	<language tag="en-GB">languages/en-GB.com_goodspack.ini</language>
+	<language tag="en-GB">languages/en-GB.com_goodspack.sys.ini</language>
+</languages>
+
+<menu>COM_GOODSPACK_MENU</menu>
+
+<files folder="admin">
+	<filename>controller.php</filename>
+	<filename>goodspack.php</filename>
+	<filename>index.html</filename>
+	<folder>js</folder>
+	<folder>languages</folder>
+	<folder>models</folder>
+	<folder>styles</folder>
+	<folder>views</folder>
+</files>
+</administration>
+</extension>

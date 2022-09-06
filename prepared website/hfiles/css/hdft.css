@@ -1,0 +1,26 @@
+a:hover {
+	color:green;
+	font-size: 130%;
+}
+a:active{
+	color:green;
+}
+a{
+	color: grey;
+}
+table.upc
+{color: grey;
+background-color: white;
+color: grey;
+	text-align: left;
+	padding: 10px;
+	font-size: 25px;}
+div.d02 {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: white;
+	height: 65px;
+	padding: 0px;
+}

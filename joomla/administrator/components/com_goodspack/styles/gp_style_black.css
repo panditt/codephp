@@ -1,0 +1,122 @@
+.ukrsol_wrapper {
+	margin: 20px auto;
+	text-align: center;
+	//font-size: 16px;
+	font-weight: 400;
+	background: #333332;
+	width: 90%;
+	height: 100%;
+	font-family: verdana;
+	color: white;
+	box-shadow: rgb(119, 119, 119) 8px 8px 20px 1px;
+}
+
+.ukrsor_h1 {
+	padding: 3px;
+}
+
+.ukrsol_gplogo {
+	background: url('logo_white.png') no-repeat scroll 0 0;
+	width: 300px;
+	height: 280px;
+	display: block;
+	margin: 0 auto;
+}
+
+.ukrsol_form_block {
+	text-align: left;
+	//width: 50%;
+}
+
+.ukrsol_form_block h2 {
+	margin: 10px 0 0 0;
+	color: white;
+}
+
+.ukrsol_form_block .ukrsol_checkbox{
+	margin: 3px 0 3px 20px;
+}
+
+.ukrsol_form_block label{
+	color: white;
+}
+
+.ukrsol_input_text {
+	display: block;
+	border-radius: 3px;
+	width: 90%;
+	max-width: 300px;
+	margin: 5px 20px;
+}
+
+.ukrsol_logo {
+	background: url('created_by_ukrsolution.png') no-repeat scroll 0 0;
+	width: 215px;
+	height: 30px;
+	display: block;
+	margin: 0 10px;
+}
+
+.ukrsol_tab_title {
+	border: 1px solid rgb(129, 129, 129);
+	border-bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 20px 10px 20px;
+	height: 30px;
+	z-index: 20;
+	background: rgb(51, 51, 50);
+	cursor: default;
+}
+
+.ukrsol_div_tab_title {
+/*	width: 93%;*/
+	margin: 0 auto;
+	text-align: left;
+
+}
+
+.ukrsol_tab {
+	/*width: 90%;*/
+	margin: 8px auto;
+	padding: 15px;
+	border: 1px solid rgb(150, 150, 150);
+	/*box-shadow: rgb(147, 147, 147) 0px -1px 5px 1px;*/
+}
+
+.ukrsol_inactive-tab-title {
+	padding: 5px 20px 8px 20px;
+	border-bottom: 2px solid rgb(134, 134, 134);
+	cursor: pointer;
+}
+
+.ukrsol_button {
+	margin: 10px;
+	padding: 8px 24px;
+	color: rgb(244, 244, 244);
+	background: rgb(9, 115, 242);
+	background: linear-gradient(to top, rgb(0, 66, 145), rgb(58, 147, 253), rgb(0, 66, 145));
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	outline: none;
+}
+
+.ukrsol_button:hover {
+	color: rgb(255, 255, 255);
+	background: rgb(9, 115, 242);
+	background: linear-gradient(to top, rgb(0, 76, 166), rgb(74, 157, 255), rgb(0, 76, 166));
+	cursor: pointer;
+}
+
+.ukrsol_button:active {
+	padding: 8px 28px 9px 28px;
+	font-size: 15px;
+	outline: none;
+	box-shadow: black 1px 1px 6px 1px inset;
+}
+
+.ukrsol_footer {
+	width: 215px;
+}

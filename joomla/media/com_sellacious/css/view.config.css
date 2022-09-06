@@ -1,0 +1,10 @@
+[id^="jform_com_sellacious_"] .jff-document-download:after {
+	width: 40px;
+	content: 'Days ';
+}
+label input[type=checkbox].checkbox:checked+span {
+	font-weight: normal !important;
+}
+input[type="number"] {
+	width: 80px !important;
+}

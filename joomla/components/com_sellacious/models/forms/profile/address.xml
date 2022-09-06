@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="addresses" label="COM_SELLACIOUS_USER_FIELDSET_ADDRESSES">
+		<fields name="address">
+			<field
+				name="id"
+				type="hidden"
+				class="address-id"
+			/>
+			<field
+				name="name"
+				type="text"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_NAME_LABEL"
+				class="gl-input address-name"
+				required="true"
+
+			/>
+			<field
+				name="address"
+				type="textarea"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_ADDRESS_LABEL"
+				class="gl-input address-address"
+				required="true"
+			/>
+			<field
+				name="landmark"
+				type="text"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_LANDMARK_LABEL"
+				class="gl-input address-landmark"
+				autocomplete="off"
+			/>
+			<field
+				name="country"
+				type="location"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_COUNTRY_LABEL"
+				class="gl-input address-country"
+				autocomplete="off"
+				gl_type="country"
+				address_type="any"
+				default="shop_country"
+				rel=""
+			/>
+			<field
+				name="state_loc"
+				type="location"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_STATE_LOC_LABEL"
+				class="gl-input address-state_loc"
+				autocomplete="off"
+				gl_type="state"
+				address_type="any"
+				rel="country"
+			/>
+			<field
+				name="district"
+				type="location"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_DISTRICT_LABEL"
+				class="gl-input address-district"
+				autocomplete="off"
+				gl_type="district"
+				address_type="any"
+				rel="state_loc|country"
+			/>
+			<field
+				name="zip"
+				type="text"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_ZIP_LABEL"
+				class="gl-input address-zip"
+				autocomplete="off"
+			/>
+			<field
+				name="mobile"
+				type="text"
+				label="COM_SELLACIOUS_ADDRESS_FORM_FIELD_MOBILE_LABEL"
+				class="gl-input address-mobile"
+				required="true"
+			/>
+		</fields>
+	</fieldset>
+</form>

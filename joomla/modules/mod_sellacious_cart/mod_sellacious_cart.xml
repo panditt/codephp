@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0">
+	<name>mod_sellacious_cart</name>
+	<author>Bhavika Matariya</author>
+	<creationDate>October 28, 2016</creationDate>
+	<copyright>Copyright (C) 2016 Bhartiy Web Technologies. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@bhartiy.com</authorEmail>
+	<authorUrl>www.bhartiy.com</authorUrl>
+	<version>1.4.1</version>
+	<description>MOD_SELLACIOUS_CART_DESC</description>
+
+	<files>
+		<filename module="mod_sellacious_cart">mod_sellacious_cart.php</filename>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<media folder="media" destination="mod_sellacious_cart">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_sfx" type="text" default=""
+						label="MOD_SELLACIOUS_CART_SHOW_MODULE_CLASS_SUFFIX_LABEL"
+						description="MOD_SELLACIOUS_CART_SHOW_MODULE_CLASS_SUFFIX_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

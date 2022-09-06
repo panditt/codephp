@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="com_SELLACIOUS_REGISTER_VIEW_DEFAULT_TITLE">
+		<message>
+			<![CDATA[com_SELLACIOUS_REGISTER_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request" addfieldpath="components/com_sellacious/models/fields">
+			<field
+				name="catid" type="categoryList"
+				label="COM_SELLACIOUS_FIELD_SELECT_CATEGORY_LABEL"
+				description="COM_SELLACIOUS_FIELD_SELECT_CATEGORY_DESC"
+				required="true"
+				group="client"
+			>
+				<option vaue=""> </option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

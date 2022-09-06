@@ -1,0 +1,307 @@
+/**
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the
+ * later versions of this theme.
+ *
+ * We advise that you use use this CSS to override
+ * SmartAdmin styles.
+ *
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+/**
+ * INDEX
+ *
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+.nowrap {
+	white-space: nowrap;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.nopadding > * {
+	margin: 0 !important;
+	vertical-align: top;
+}
+
+.table-nopadding td, .table-nopadding th {
+	padding: 0;
+}
+
+textarea.code {
+	font-family: monospace;
+}
+
+.v-top {
+	vertical-align: top !important;
+}
+
+.red {
+	color: #ff0000;
+	padding: 1px 4px;
+}
+
+.red-note {
+	color: #ff0000;
+	background-color: #ffffff;
+	border-radius: 3px;
+	padding: 1px 4px;
+}
+
+.star-note {
+	color: #ff0000;
+	line-height: 1.4;
+	font-size: 11px;
+	padding-left: 15px;
+}
+
+.star-note:before {
+	color: #ff0000;
+	font-size: 120%;
+	margin-right: 5px;
+	margin-left: -10px;
+}
+
+.star-note.star-1:before {
+	content: '*';
+}
+
+.star-note.star-3:before {
+	content: '**';
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.w100p {
+	width: 100%;
+}
+
+.w90p {
+	width: 60%;
+}
+
+.w80p {
+	width: 60%;
+}
+
+.w70p {
+	width: 60%;
+}
+
+.w60p {
+	width: 60%;
+}
+
+.w50p {
+	width: 50%;
+}
+
+.w40p {
+	width: 40%;
+}
+
+.w30p {
+	width: 30%;
+}
+
+.w20p {
+	width: 20%;
+}
+
+.w10p {
+	width: 10%;
+}
+
+.input-tiny {
+	width: 30px;
+}
+
+.h2 {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+form[method="post"] {
+	margin: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.uppercase-small {
+	text-transform: uppercase;
+	font-size: 80%;
+}
+
+.margin-5 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px !important;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.invalid {
+	color: #e40000 !important;
+}
+
+input.invalid, select.invalid, textarea.invalid {
+	border: 1px solid #e40000 !important;
+	color: #000000;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/** Compare bar */
+table.tbl-compare {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: 0 solid #dedede;
+	border-radius: 4px;
+	border-collapse: separate;
+	border-spacing: 2px;
+}
+
+table.tbl-compare > tbody > tr > td {
+	padding: 0;
+	vertical-align: middle;
+	background: #efefef;
+	border: 1px solid #efefef;
+}
+
+table.tbl-compare td.compare-submit {
+	width: 40px;
+	padding: 2px 2px;
+	text-align: center;
+	background: #fefefe;
+	border: 0;
+}
+
+table.tbl-compare td.bar_item {
+	position: relative;
+	background: #fcfcfc;
+}
+
+table.tbl-compare td.compare-item-image {
+	padding: 2px;
+	min-width: 70px;
+	max-width: 80px;
+}
+
+table.tbl-compare td.compare-item-title {
+	vertical-align: top;
+	padding: 2px 8px 2px 4px;
+	font-size: 11px;
+	line-height: 1.3;
+	width: 75%;
+}
+
+table.tbl-compare td.compare-item-none {
+	color: #999999;
+	text-shadow: 1px 1px 1px #ffffff;
+	font-size: 11px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+table.tbl-compare a.compare-remove {
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+	color: black;
+	position: absolute;
+	top: 0;
+	right: 3px;
+}
+
+/** iStore II demo modal fix */
+body, p, h1, h2, h3, h4, h5 {
+	font-family: 'Roboto', sans-serif;
+}
+
+body.modal-open {
+	padding-right: 15px;
+}
+
+hr.simple {
+	margin: 2px;
+}
+
+/** Modal setup */
+div.modal[id].fade {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	margin-left: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	background: transparent;
+	overflow-y: auto;
+}
+
+div.modal[id].fade.in {
+	display: block;
+	top: 0;
+}
+
+div.modal .modal-content {
+	position: relative;
+	width: 100%;
+	margin: 5% auto 10px;
+	background-color: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	outline: none;
+}
+
+div.modal div.modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	min-height: 14px;
+}
+
+div.modal .modal-body {
+	padding: 10px 0 0 0;
+	width: auto;
+	overflow-x: auto;
+	max-height: none;
+}
+
+@media (max-width: 768px) {
+	div.modal[id].fade.in {
+		padding-right: 5px;
+		padding-left: 5px;
+		width: 100%;
+	}
+
+	.modal-content {
+		width: 100%;
+	}
+}

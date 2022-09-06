@@ -1,0 +1,27 @@
+/** Slate boxes */
+div.chart-area {
+	position: relative;
+}
+
+.chart-large canvas {
+	padding-right: 10px;
+}
+
+.slate-legend {
+	float: left;
+	margin: 1px 5px 1px 0;
+	white-space: nowrap;
+}
+
+.axis-label-y {
+	position: absolute;
+	left: 80px;
+	top: 60px;
+	line-height: 1.6;
+	background: rgba(211, 225, 233, 0.7);
+	border: 1px solid #beccd4;
+	min-width: 150px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}

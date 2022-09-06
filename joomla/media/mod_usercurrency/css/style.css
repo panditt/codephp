@@ -1,0 +1,34 @@
+/**
+ * @version     1.3.3
+ * @package     sellacious
+ *
+ * @copyright   Copyright (C) 2016. Bhartiy Web Technologies. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @author      Izhar Aazmi <info@bhartiy.com> - http://www.bhartiy.com
+ */
+
+.mod_usercurrency_module {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.mod_usercurrency_module .mod_usercurrency_title {
+  display: inline-block;
+}
+
+.mod_usercurrency_module #mod_usercurrency_block {
+  display: inline-block;
+  margin: 0;
+}
+
+.mod_usercurrency_module #mod_usercurrency_block .mod_usercurrency {
+  margin-left: 10px;
+  position: relative;
+  width: auto;
+  z-index: 1001;
+}
+
+.jqTransformSelectWrapper > ul {
+  height: auto !important;
+}

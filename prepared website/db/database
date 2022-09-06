@@ -1,0 +1,28 @@
+CREATE TABLE `feedback` (
+   `serial no.` int(255) not null auto_increment,
+   `name` varchar(25),
+   `email` varchar(40),
+   `subject` varchar(100),
+   `message` varchar(800),
+   PRIMARY KEY (`serial no.`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=75;
+
+INSERT INTO `feedback` (`serial no.`, `name`, `email`, `subject`, `message`) VALUES ('1', 'nitesh', 'nitesh.parashar55@gmail.com', 'great job', 'that feel good to be bad\r\n');
+
+CREATE TABLE `myusers` (
+   `serial no.` int(255) not null auto_increment,
+   `first` varchar(30),
+   `last` varchar(30),
+   `email` varchar(35),
+   `mobileno` varchar(12),
+   `age` varchar(3),
+   `classtime` varchar(12),
+   `purpose` varchar(18),
+   `gender` varchar(6),
+   PRIMARY KEY (`serial no.`),
+   UNIQUE KEY (`serial no.`),
+   UNIQUE KEY (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=21;
+
+INSERT INTO `myusers` (`serial no.`, `first`, `last`, `email`, `mobileno`, `age`, `classtime`, `purpose`, `gender`) VALUES ('1', 'Nitesh', 'Parashar', 'np96.com@gmail.com', '435788655466', '18', '7-8am', 'gain', 'male');
+INSERT INTO `myusers` (`serial no.`, `first`, `last`, `email`, `mobileno`, `age`, `classtime`, `purpose`, `gender`) VALUES ('2', 'praveen', 'dahiya', 'praveendahiya231996@gmaill.com', '8587875178', '18', '5-6pm', 'leaning', 'male');

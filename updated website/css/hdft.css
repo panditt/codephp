@@ -1,0 +1,39 @@
+a:hover {
+	color:green;
+	font-size: 130%;
+}
+a:active{
+	color:green;
+}
+a{
+	color: grey;
+}
+div.d02 {
+font-family: 'HelveticaRegular',Helvetica,Arial;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: white;
+	height: 65px;
+	padding: 0px;
+}
+table.upc
+{color: grey;
+background-color: white;
+color: grey;
+	text-align: left;
+	padding: 10px;
+	font-size: 25px;}
+	div.u02 {
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+	height: 45px;
+	padding: 0px;
+	text-align: center;
+    width: 100%;
+	background-color: white;
+    color: black;
+	font-family: 'HelveticaRegular',Helvetica,Arial;}

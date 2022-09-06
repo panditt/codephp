@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="basic" label="COM_SELLACIOUS_SELLER_FIELDSET_BASIC">
+		<field
+			name="id"
+			type="hidden"
+			default="0"
+			readonly="true"
+			/>
+		<field
+			name="name"
+			type="text"
+			label="COM_SELLACIOUS_SELLER_FIELD_NAME_LABEL"
+			description="COM_SELLACIOUS_SELLER_FIELD_NAME_DESC"
+			class="inputbox"
+			required="true"
+			/>
+		<field
+			name="email"
+			type="email"
+			label="COM_SELLACIOUS_SELLER_FIELD_EMAIL_LABEL"
+			description="COM_SELLACIOUS_SELLER_FIELD_EMAIL_DESC"
+			class="inputbox"
+			required="true"
+			/>
+		<field
+			name="phone"
+			type="tel"
+			label="COM_SELLACIOUS_SELLER_FIELD_PHONE_LABEL"
+			description="COM_SELLACIOUS_SELLER_FIELD_PHONE_DESC"
+			class="inputbox"
+			required="true"
+			/>
+		<field
+			name="company"
+			type="text"
+			label="COM_SELLACIOUS_SELLER_FIELD_COMPANY_LABEL"
+			description="COM_SELLACIOUS_SELLER_FIELD_COMPANY_DESC"
+			class="inputbox"
+			required="true"
+		/>
+		<field
+			name="country"
+			type="location"
+			label="COM_SELLACIOUS_SELLER_FIELD_COUNTRY_LABEL"
+			description="COM_SELLACIOUS_SELLER_FIELD_COUNTRY_DESC"
+			autocomplete="off"
+			class="w100p address-country"
+			gl_type="country"
+			default=""
+			rel=""
+		/>
+	</fieldset>
+</form>

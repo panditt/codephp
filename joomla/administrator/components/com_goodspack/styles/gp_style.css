@@ -1,0 +1,396 @@
+.ukrsol_wrapper {
+	margin: 20px auto;
+	text-align: center;
+	//font-size: 16px;
+	font-weight: 400;
+	width: 90%;
+	height: 100%;
+	font-family: verdana;
+	color: black;
+	//box-shadow: rgb(119, 119, 119) 0px 3px 20px 4px;
+}
+
+.ukrsor_h1 {
+	padding: 3px;
+	line-height: 30px;
+
+}
+
+.ukrsol_header {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.ukrsol_gplogo {
+	background: url('logo_black.png') no-repeat scroll 0 0;
+	width: 300px;
+	height: 280px;
+	display: block;
+	margin: 0 auto;
+}
+
+.ukrsol_form_block {
+	text-align: left;
+	padding: 15px;
+}
+
+.ukrsol_form_block h2 {
+	margin: 10px 0 8px 1px;
+	color: white;
+}
+
+.ukrsol_input_text input {
+	margin-right: 5px;
+}
+
+.ukrsol_form_block .ukrsol_checkbox{	
+	margin: 3px 5px 3px 20px;
+	vertical-align: top;
+}
+
+.ukrsol_form_block input[type='checkbox'][data-parent_id]{	
+	margin-left: 40px;	
+}
+
+.ukrsol_form_block_hide {
+	display: none;
+}
+
+.ukrsol_form_block label{
+	color: white;
+}
+
+.ukrsol_text {
+	border-radius: 3px;
+	width: 90%;
+	max-width: 200px;
+	margin: 5px 10px 5px 20px;
+}
+
+.ukrsol_select {
+	width: 150px;
+	margin: 5px 0;
+}
+
+.ukrsol_radio {
+
+}
+
+.ukrsol_logo {
+	background: url('created_by.png') no-repeat scroll 0 0;
+	width: 240px;
+	height: 50px;
+	display: block;
+	margin: 0 10px;
+}
+
+.ukrsol_tab_title {
+	border-bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px 20px 10px;
+	height: 30px;
+	z-index: 20;
+	background: rgb(255, 255, 255);
+	cursor: default;
+	background: linear-gradient(to bottom, #f2f2f2 0%,#f3f3f3 50%,#ffffff 100%);
+	font-weight: bold;
+	color: #264964;
+	display:none;
+}
+
+.ukrsol_div_tab_title {
+	width: 93%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.ukrsol_tab {
+	margin: 8px auto;
+}
+
+.ukrsol_inactive_tab_title {
+	background: rgb(240, 240, 240);
+	padding: 5px 20px 8px;
+	border-bottom: 2px solid rgb(211, 207, 207);
+	border-left: 1px solid rgb(211,207,207);
+	font-size: 12px;
+	color: #595959;
+	cursor: pointer;
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#f2f2f2 100%);
+}
+
+.ukrsol_button {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f3f3f3 50%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f3f3f3 50%,#f2f2f2 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.ukrsol_Microsoft.gradient( startColorstr="#ffffff", endColorstr="#f2f2f2",GradientType=0 );
+	border: 1px solid silver;
+	color: black;
+	cursor: pointer;
+	font-size: 15px;
+	height: 35px;
+	margin-top: 10px;
+	padding: 0px 5px;
+	width: 130px;
+	position: relative;
+	border-radius: 3px;
+	text-align: center;
+	z-index: 2;
+}
+
+.ukrsol_button_conteiner {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.ukrsol_button:hover, .ukrsol_button:focus {
+	cursor: pointer;
+	outline: none;
+}
+
+.ukrsol_button:active {
+	padding: 3px 5px 0px 5px;
+	font-size: 14px;
+	box-shadow: black 1px 1px 6px 1px inset;
+}
+
+.ukrsol_footer {
+	width: 215px;
+}
+
+.success {
+	width: 400px;
+	border-left: 3px solid green;
+	padding: 10px;
+	background: rgba(184,255,198,0.4);
+	display: block !important;
+}
+.success:after {
+	content: " Options was succesfuly saved";
+}
+
+.dont-display {
+	display: none;
+}
+
+.frame_block {	
+	margin-left: 270px;	
+}
+
+.iframe_wrapper {	
+	height: 900px;
+}
+
+.icon-logo::before {    
+    content:"";    
+}
+
+.ukrsol_textarea {
+	resize: none;
+	max-width: 88%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.embedcontainer {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 200px;
+}
+.ukrsol_embedcode {
+	resize: none;	
+	height: 90px;
+	font-size: 11px;
+}
+
+/*****tabs for iframe*****/
+.ukrsol_put_inner_dom nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ukrsol_put_inner_dom .clearfix:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.ukrsol_put_inner_dom nav li.inactive {    
+    display: block;
+    float: left;
+    margin-top: 3px;
+    position: relative;
+    
+    border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;	
+	height: 30px;	
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(152, 152, 152) 0px -4px 10px -3px;
+	cursor: default;
+	background: linear-gradient(to bottom, #f2f2f2 0%,#f3f3f3 50%,#ffffff 100%);
+	font-weight: bold;
+	color: #264964;
+}
+
+.ukrsol_put_inner_dom nav li.active {
+	display: block;
+    float: left;
+    margin-top: 3px;
+    position: relative;
+    
+    border-bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;	
+	height: 30px;
+	z-index: 20;
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(152, 152, 152) 0px -4px 10px -3px;
+	cursor: default;
+	background: linear-gradient(to bottom, #f2f2f2 0%,#f3f3f3 50%,#ffffff 100%);
+	font-weight: bold;
+	color: #264964;
+}
+
+.ukrsol_put_inner_dom nav li a {
+    padding: 5px 30px 0;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ukrsol_put_inner_dom #content {
+	position: relative;
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	box-shadow: rgb(187, 185, 185) 1px 0px 5px 2px;
+}
+
+/*****styles from goodspack*****/
+div#ukrsol_put_inner_dom {
+	height: 100%;
+}
+
+div#ukrsol_put_inner_dom .ukrsol_non_select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-user-select: none;
+}
+
+#ukrsol_put_inner_dom .ukrsol_simple_add
+{
+	width: 303px;
+	height: 100%;
+	color: white;
+	top: 0px;
+	z-index: 26;
+	left:0px;
+	font-family: arial;
+}
+
+.ukrsol_simple_add h2:before,
+.ukrsol_simple_add h1:before{
+	clear:both;
+	display:table;
+	width:100%;
+	content:' ';
+}
+
+.ukrsol_simple_add h2,
+.ukrsol_simple_add h1
+{
+	font-size: 15px;
+	margin: 15px 0px 0px;
+}
+
+.ukrsol_simple_add h1.ukrsol_simple_h1{
+	text-align: center;
+	line-height:1.5;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.ukrsol_simple_add .ukrsol_embed_instruction{
+	font-style: italic;
+	font-size: 12px;
+}
+
+.ukrsol_simple_add select
+{
+	width: 200px;	
+	margin: 0 auto;
+	display: block;
+	overflow: auto;
+	}
+
+.ukrsol_simple_add .ukrsol_simple_add_label_checkbox {
+	width: 175px;
+}
+
+.ukrsol_simple_add input[type=text]
+{
+	background: white;
+	width: 180px;
+	margin: 10px auto;
+	display: block;
+	padding:5px;
+	border-radius:3px;
+}
+
+.ukrsol_footer_and_categories_block,
+.ukrsol_simple_add .ukrsol_simple_add_label
+{
+	text-align: center;
+	display: inherit;
+	margin: 0px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.ukrsol_simple_add input[type=checkbox] {
+	margin-top:4px;
+}
+
+.ukrsol_simple_add input[type=radio] { 
+	margin-top:4px;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+#ukrsol_put_inner_dom .ukrsol_settings_panel
+{
+	position: absolute;
+	padding: 15px;
+	background:#333332;
+	width: 240px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height:100%;
+	//-webkit-box-shadow: inset -5px 0px 25px 0px rgba(0,0,0,0.75);
+	//-moz-box-shadow: inset -5px 0px 25px 0px rgba(0,0,0,0.75);
+	//box-shadow: inset -5px 0px 25px 0px rgba(0,0,0,0.75);
+}
+
+.ukrsol_float_left
+{
+	float:left;
+}
+
+#ukrsol_put_inner_dom .ukrsol_simple_header_img {
+	background: url('logo_white.png') no-repeat scroll 0 0;
+	width: 140px;
+	height: 130px;
+	display: block;
+	background-size: 143px;
+	margin: auto;
+}
